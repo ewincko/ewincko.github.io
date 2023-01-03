@@ -1,0 +1,142 @@
+/* Style sheet created by: Emily Wincko */
+
+/* Style for body specifies a background color */
+body {
+	background: rgb(6,96,108);
+	background: -moz-linear-gradient(0deg, rgba(6,96,108,1) 0%, rgba(144,224,224,1) 50%, rgba(252,252,252,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(6,96,108,1) 0%, rgba(144,224,224,1) 50%, rgba(252,252,252,1) 100%);
+	background: linear-gradient(0deg, rgba(6,96,108,1) 0%, rgba(144,224,224,1) 50%, rgba(252,252,252,1) 100%);
+} 
+/*Style to create a fluid image*/
+img {
+	max-width: 100%
+}
+/* Style for the header specifies top margins, background color, rounded corners, and center aligns content */
+header {
+	text-align: center;
+} 
+/* Style for nav specifies text properties, padding */
+nav {
+	font-family: Didot, "Didot", serif;
+	font-size: 2.35em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+	padding: 2.5em;
+	margin-left: 18%;
+}
+/*Style specifies padding and margins for nav ul*/
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+} 
+/*Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the nav*/
+nav li {
+	background-color: #02585A;
+	border-radius: 5em;
+	list-style-type: none;
+	margin: 0.5em;
+	padding: 0.4em;
+} 
+.sizes {
+	list-style-type: none;
+} 
+/*Style changes nav link text color to light blue and removes underline*/
+nav li a {
+	color: #CDFEFF;
+	text-decoration: none;
+} 
+/* Style for main specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+#contact {
+	display: block;
+	font-family: Tahoma, "Tahoma", sans-serif;
+	font-size: 1.9em;
+	margin-top: 0.5em;
+	padding: 1.5em;
+	border-radius: 2em 0 2em 0;
+	background-color: #DFEFEF;
+	opacity: 0.5;
+	text-align: center;
+}
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 7em;
+	color: #000000;
+} 
+#index {
+	font-family: Tahoma, "Tahoma", sans-serif;
+	font-size: 2em;
+	padding: 2em;
+	text-align: center;
+}  
+#cake {
+	font-family: Tahoma, "Tahoma", sans-serif;
+	font-size: 1.7em;
+	padding: 2em;
+	text-align: center;
+}
+	
+.cupcake {
+	margin-left: 10%;
+	float: left;
+	clear: both;
+}
+.whoopie {
+	margin-left: 10%;
+	float: left;
+	clear: both;
+}
+.chocolate {
+	margin-left: 10%;
+	float: left;
+	clear: both;
+}
+.chocolate-chip {
+	margin-left: 10%;
+	float: left;
+	clear: both;
+}	
+
+#banner img {
+	width: 100%;
+}
+#seasonal {
+	font-family: Tahoma, "Tahoma", sans-serif;
+	font-size: 1.5em;
+	padding: 2em;
+	text-align: center;
+}
+
+figure img {
+	width: 30%;
+	border: solid 0.2em #FFFFFF;
+	border-radius: 2em;
+} 
+
+header img {
+	width: 20%;
+	border-radius: 3em;
+	float: left;
+	padding: 3em;
+}
+/* Style rules for pseudo-classes */
+		nav li a:link {
+			color: #FFFFFF;
+		}
+
+		nav li a:visited {
+			color: #C4F1EE;
+		} 
+
+		nav li a:hover {
+			color: #F4B4FE;
+			font-style: italic;
+		}
+table {
+	margin-left: 35%;
+	font-family: Tahoma, "Tahoma", sans-serif;
+	font-size: 1.7em;
+}
